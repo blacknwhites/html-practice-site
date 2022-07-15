@@ -6,6 +6,8 @@ a {
     color: black;
     text-decoration: none;
 }
+/* 주고싶은 효과를 선택한다는 의미에서 선택자selector라 함, 선택자 안의 지정된 효과를 선언declaration이라함  */
+/* color는 속성property black은 값value 임 */
 
 h1 {
     font-size: 45px;
@@ -14,7 +16,8 @@ h1 {
     margin: 0;
     padding: 10px;
 }
-
+/* 아무것도 없을 경우 태그 선택자 .을 붙일경우 클래스 선택자 #을 붙일경우 id 선택자 */
+/* padding 잠바로 기억, margin 간격(장사를 하면 남는 거) */
 #grid ol {
     border-right: 1px solid gray;
     width: 100px;
@@ -47,3 +50,4 @@ h1 {
     }
 
 }
+/* 반응형 디자인: 화면의 크기에 따라 웹페이지의 요소들이 반응하는 것*/
